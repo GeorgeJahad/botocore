@@ -125,6 +125,9 @@ DEFAULT_S3_CONFIG_VARS = {
     'use_dualstack_endpoint': (
         ('s3', 'use_dualstack_endpoint'), None, None, utils.ensure_boolean
     ),
+    'use_location_for_redirects': (
+        ('s3', 'use_location_for_redirects'), None, None, utils.ensure_boolean
+    ),
     'payload_signing_enabled': (
         ('s3', 'payload_signing_enabled'), None, None, utils.ensure_boolean
     ),
